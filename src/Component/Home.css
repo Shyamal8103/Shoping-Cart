@@ -1,0 +1,114 @@
+.header{
+    height: 50px;
+    background-color: #E72840;
+    color: white;
+    text-align: center;
+    justify-content: space-around   ;
+    align-items: center;
+    
+}
+
+.menubar{
+    width: 40px;
+    height: 40px;
+}
+
+.radio{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.sidebar{
+    display: none;
+    padding: 20px;
+    margin-top: 2px;
+    position: absolute;
+    width: 200px;
+    height: 100vh;
+    background-color: #E72840;
+}
+
+#addedtocart{
+    width: 22px;
+    height: 22px;
+}
+
+.navbar_container{
+    margin: 0 !important;
+    padding: 0 !important;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.inputbox{
+    width: 350px;
+    border-radius: 15px;
+    border: none;
+    height: 35px;
+    padding: 10px 20px;
+}
+
+.card_container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card{
+    border: none !important;
+    width: 300px;
+    min-height: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background: #EDEDED !important;
+    box-shadow: 8px 10px 14px black;
+}
+
+.toggleslider{
+    display: block;
+    transition: ease-in 0.2s;
+}
+
+.card img{
+    object-fit: cover;
+    width: 280px;
+    height: 150px;
+}
+
+.con{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carticon{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.carticon:hover{
+    color: black !important;
+}
+
+.addtocartbtn{
+    background-color: #E72840 !important;
+    color: white !important;
+}
+
+.itemscount{
+    position: absolute;
+    top: 0px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.home_container{
+    margin: auto;
+    background-color: #EDEDED;
+}

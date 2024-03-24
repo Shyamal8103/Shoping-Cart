@@ -1,0 +1,59 @@
+.quantity_btn{
+    /* border: 1px solid black; */
+    padding: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.quantity_btn button{
+    background-color: transparent;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 30px;
+    border-radius: 50%;
+    background: #E72840;
+}
+
+.quantity_btn button:hover{
+    color: white;
+    background: black !important;
+}
+
+.deleteicon{
+    width: 45px;
+    height: 40px;
+}
+
+.checkout_container{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    
+}
+
+.checkout_div{
+    width: 350px;
+    height: 200px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    line-height: 34px;
+    background-color: #E72840;
+    color: white;
+}
+
+.cost{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout_btn button{
+    width: 100%;
+}
